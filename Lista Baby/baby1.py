@@ -2,8 +2,8 @@
 
 numero = float(input("Digite um número: "))
 
-if numero < 10:
+if numero > 10:
     print(numero)
 else: 
-    print("O número informado é maior ou igual a 10")
+    print("O número informado é menor ou igual a 10")
     
